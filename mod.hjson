@@ -1,0 +1,6 @@
+name: "x5 drill speed"
+displayName: "x5 drill speed"
+author: Desplay
+description: "make x5 drill speed"
+version: "1.0"
+minGameVersion: "146"
