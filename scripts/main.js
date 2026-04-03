@@ -5,6 +5,20 @@ const junction = Blocks.junction
 const router = Blocks.router
 const sorter = Blocks.sorter
 const inverted = Blocks.invertedSorter
+const core1 = Blocks.coreShard
+const core2 = Blocks.coreFoundation
+const core3 = Blocks.coreNucleus
+
+core1.itemCapacity = 500000
+core2.itemCapacity = 2000000
+core3.itemCapacity = 10000000
+
+core1.health = 100000
+core2.health = 200000
+core3.health = 500000
+core1.unitCapModifier = 100
+core2.unitCapModifier = 200
+core3.unitCapModifier = 500
 
 junction.speed = 0.1
 router.speed = 0.1
